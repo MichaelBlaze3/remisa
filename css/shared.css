@@ -1,0 +1,89 @@
+/* This CSS file constains rules that can apply to any view */
+.position-center {
+    display: block;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+/*.table>tbody>tr.danger>td, 
+.table>tbody>tr.danger>th, 
+.table>tbody>tr>td.danger, 
+.table>tbody>tr>th.danger, 
+.table>tfoot>tr.danger>td, 
+.table>tfoot>tr.danger>th, 
+.table>tfoot>tr>td.danger, 
+.table>tfoot>tr>th.danger, 
+.table>thead>tr.danger>td, 
+.table>thead>tr.danger>th, 
+.table>thead>tr>td.danger, 
+.table>thead>tr>th.danger {
+    background-color: #c0392b !important;
+    color: #fff;
+}
+
+.table>tbody>tr.warning>td, 
+.table>tbody>tr.warning>th, 
+.table>tbody>tr>td.warning, 
+.table>tbody>tr>th.warning, 
+.table>tfoot>tr.warning>td, 
+.table>tfoot>tr.warning>th, 
+.table>tfoot>tr>td.warning, 
+.table>tfoot>tr>th.warning, 
+.table>thead>tr.warning>td, 
+.table>thead>tr.warning>th, 
+.table>thead>tr>td.warning, 
+.table>thead>tr>th.warning {
+    background-color: #f39c12 !important;
+}*/
+
+/*.asphalt {
+    background-color: #34495e;
+    color: #fff;
+}*/
+
+/* Override Bootstrap Style */
+.panel-default>.panel-heading {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+/* Panel Custom Colors */
+.panel-default>.panel-heading.river, .panel-footer.river {
+    border-color: transparent;
+    background-color: #3498db;
+    color: #fff;
+}
+.panel-default>.panel-heading.nephritis, .panel-footer.nephritis {
+    border-color: transparent;
+    background-color: #27ae60;
+    color: #fff;
+}
+.panel-default>.panel-heading.carrot, .panel-footer.carrot {
+    border-color: transparent;
+    background-color: #e67e22;
+    color: #fff;
+}
+.panel-default>.panel-heading.alizarin, .panel-footer.alizarin {
+    border-color: transparent;
+    background-color: #e74c3c;
+    color: #fff;
+}
+.panel-default>.panel-heading.asphalt, .panel-footer.asphalt {
+    border-color: transparent;
+    background-color: #34495e;
+    color: #fff;
+}
+
+.input-group-padding {
+    padding-bottom: 10px;
+}
+.btn-radiusless {
+    border-radius: 0;
+}
+
+
+/* Users Options */
+.full-size {
+    width: 100%;
+    margin-bottom: 5px; 
+}
