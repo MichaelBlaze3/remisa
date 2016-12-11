@@ -1,0 +1,3 @@
+remisaApp.controller('loginController', function(){
+
+});
