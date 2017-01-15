@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="remisa">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>REMISA - Sistema de Control y Administracion de Recursos</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="app/css/sb-admin.css">
+        <link rel="stylesheet" type="text/css" href="app/css/shared.css">
+        <link rel="stylesheet" type="text/css" href="app/css/login.css">
+
+        <!-- Custom Fonts -->
+        <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+
+        <!-- jQuery -->
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+        <!-- AngularJS Files-->
+        <script src="node_modules/angular/angular.js"></script>
+        <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="node_modules/angular-resource/angular-resource.js"></script>
+
+        <script src="app/app.module.js"></script>
+        <script src="app/app.config.js"></script>
+
+        <!-- Angular Services -->
+        <script src="app/services/users.service.js"></script>
+
+        <!-- Angular Controllers-->
+        <script src="app/controllers/signin.Controller.js"></script>
+        <script src="app/controllers/home.Controller.js"></script>
+        <script src="app/controllers/dashboard.Controller.js"></script>
+        <script src="app/controllers/users.Controller.js"></script>
+        <script src="app/controllers/user.info.controller.js"></script>
+
+        <!-- Chart Files -->
+        <script src="node_modules/chart.js/dist/Chart.min.js"></script>
+        <script src="node_modules/angular-chart.js/dist/angular-chart.min.js"></script>
+
+        <!-- ngDialog-->
+        <link rel="stylesheet" href="node_modules/ng-dialog/css/ngDialog.min.css">
+        <link rel="stylesheet" href="node_modules/ng-dialog/css/ngDialog-theme-default.min.css">
+        <script src="node_modules/ng-dialog/js/ngDialog.min.js"></script>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+
+        <div ui-view></div>
+
+    </body>
+
+</html>
